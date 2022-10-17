@@ -7,12 +7,13 @@ import Testimonial from "../../components/LandingPage/Testimonial"
 import CallToAction from "../../components/LandingPage/CallToAction"
 import Faq from "../../components/LandingPage/Faq"
 import Footer from "../../components/LandingPage/Footer"
+import { ButtonSewa } from "../../const/staticData"
 
 const Home = () => {
   return (
     <div>
       <Navigation />
-      <Hero />
+      <Hero ButtonSewa={ButtonSewa} />
       <Services />
       <Strength />
       <Testimonial />
