@@ -10,7 +10,7 @@ import { currencyFormatter } from "../../../utils/currencyFormatter"
 // import { rentDayCalculator } from "../../../utils/rentDayCalculator"
 
 //# components
-// import RentalDate from "./DatePicker/index"
+import RentalDate from "./DatePicker/index"
 
 const DetailCarCard = (props) => {
   const { userGroupIcon } = props
@@ -45,23 +45,23 @@ const DetailCarCard = (props) => {
           <span>{userGroupIcon}</span> {car.category}
         </p>
         <>
-          {/* <div className="detail-car-card__rental-date">
+          <div className="detail-car-card__rental-date">
             <p>Tentukan lama sewa mobil (max. 7 hari)</p>
             <RentalDate />
           </div>
           <div className="detail-car-card__total-price">
             <p>Total</p>
             <div className="detail-car-card__total-price-detail">
-              <p>
+              {/* <p>
                 {totalRentalPrice.includes(NaN) ? carPrice : totalRentalPrice}
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="detail__result__button-payment">
             <button onClick={handleClick} className="button">
               Lanjutkan Pembayaran
             </button>
-          </div> */}
+          </div>
         </>
       </div>
     </div>
