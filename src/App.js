@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import SearchCars from "./pages/SearchCars"
 import PaymentMethod from "./pages/Payment/Metode"
 import PayingProcess from "./pages/Payment/Paying"
+import Tiket from "./pages/Payment/Tiket"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="detailmobil/:id" element={<DetailCar />} />
         <Route path="payment/metode" element={<PaymentMethod />} />
         <Route path="payment/paying" element={<PayingProcess />} />
+        <Route path="payment/tiket" element={<Tiket />} />
       </Routes>
     </div>
   )
