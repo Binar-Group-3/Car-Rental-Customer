@@ -1,7 +1,8 @@
 import "./style.css"
+import { socialMediaLogo } from "../../../const/staticData"
+import { NavMenu } from "../Navigation/data"
 
-const Footer = (props) => {
-  const { socialMediaLogo, NavMenu } = props
+const Footer = () => {
   return (
     <footer>
       <div className="container">

@@ -44,7 +44,7 @@ const DetailPriceCard = ({ userGroupIcon }) => {
         }
       )
       .then((res) => {
-        console.log(res)
+        console.log(res.status)
         navigate("/payment/tiket")
       })
       .catch((err) => console.log(err.message))
