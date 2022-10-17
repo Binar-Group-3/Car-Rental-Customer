@@ -1,0 +1,52 @@
+.cta__container {
+  background: var(--clr-primary);
+  border-radius: var(--bora-xl);
+  height: 326px;
+  display: flex;
+  width: 1168px;
+}
+
+.cta__columns {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta__columns h1 {
+  text-align: center;
+  color: var(--clr-neutral-100);
+  margin-bottom: 16px;
+}
+
+.cta__columns p {
+  color: var(--clr-neutral-100);
+  margin: 0 auto 52px;
+  width: 468px;
+  text-align: center;
+}
+
+.cta__button {
+  margin: 0 auto;
+}
+
+/* _ Responsive Breakpoints */
+@media screen and (max-width: 600px) {
+  .cta__container {
+    width: 328px;
+    height: 420px;
+  }
+
+  .cta__columns {
+    width: 212px;
+  }
+
+  .cta__columns h1 {
+    font-size: var(--fs-400);
+    line-height: 36px;
+  }
+
+  .cta__columns p {
+    width: 100%;
+    margin: 0 auto 2rem;
+  }
+}

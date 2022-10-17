@@ -1,5 +1,18 @@
-function App() {
-  return <div className="App"></div>
+import { Routes, Route } from "react-router-dom"
+import DetailCar from "./pages/DetailCar"
+import Home from "./pages/Home"
+import SearchCars from "./pages/SearchCars"
+
+const App = () => {
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="carimobil" element={<SearchCars />} />
+        <Route path="detailmobil/:id" element={<DetailCar />} />
+      </Routes>
+    </div>
+  )
 }
 
 export default App
