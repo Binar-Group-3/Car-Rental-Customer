@@ -7,7 +7,7 @@ import access_token from "../../UserAuth/accessToken"
 import "./style.css"
 
 //# function
-import { currencyFormatter } from "../../../utils/numberFormatter"
+import { currencyFormatter } from "../../../utils/currencyFormatter"
 import { rentDayCalculator } from "../../../utils/rentDayCalculator"
 
 //# data
