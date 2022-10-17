@@ -1,11 +1,14 @@
 import React, { useState } from "react"
+import "./style.css"
+import { dataTestimoni } from "./data"
+import { angleLeftIcon, angleRightIcon } from "../../../const/staticData"
+
+// react-slick
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import "./style.css"
 
-const Testimonial = (props) => {
-  const { dataTestimoni, angleLeftIcon, angleRightIcon } = props
+const Testimonial = () => {
   const [sliderRef, setSliderRef] = useState(null)
   const settings = {
     dots: false,

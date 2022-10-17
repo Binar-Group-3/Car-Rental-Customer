@@ -1,9 +1,9 @@
 import "./style.css"
 import carImg from "../../../assets/img_car.png"
+import { ButtonSewa } from "../../../const/staticData"
 import { Link } from "react-router-dom"
 
-const Hero = (props) => {
-  const { ButtonSewa } = props
+const Hero = () => {
   return (
     <section className="hero__container" id="hero">
       <div className="container hero__columns">

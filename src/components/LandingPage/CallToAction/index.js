@@ -1,8 +1,8 @@
 import "./style.css"
+import { ButtonSewa } from "../../../const/staticData"
 import { Link } from "react-router-dom"
 
-const CallToAction = (props) => {
-  const { ButtonSewa } = props
+const CallToAction = () => {
   return (
     <section>
       <div className="container cta__container">
