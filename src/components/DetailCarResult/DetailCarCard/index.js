@@ -7,7 +7,7 @@ import "./style.css"
 
 //# function
 import { currencyFormatter } from "../../../utils/currencyFormatter"
-// import { rentDayCalculator } from "../../../utils/rentDayCalculator"
+import { rentDayCalculator } from "../../../utils/rentDayCalculator"
 
 //# components
 import RentalDate from "./DatePicker/index"
@@ -21,8 +21,8 @@ const DetailCarCard = (props) => {
   const carPrice = currencyFormatter(car.price)
 
   // calculation
-  //   const totalRentalDays = rentDayCalculator(startDate, endDate)
-  //   const totalRentalPrice = currencyFormatter(totalRentalDays * car.price)
+  const totalRentalDays = rentDayCalculator(startDate, endDate)
+  const totalRentalPrice = currencyFormatter(totalRentalDays * car.price)
 
   // function
   const navigate = useNavigate()
@@ -52,9 +52,9 @@ const DetailCarCard = (props) => {
           <div className="detail-car-card__total-price">
             <p>Total</p>
             <div className="detail-car-card__total-price-detail">
-              {/* <p>
+              <p>
                 {totalRentalPrice.includes(NaN) ? carPrice : totalRentalPrice}
-              </p> */}
+              </p>
             </div>
           </div>
           <div className="detail__result__button-payment">
