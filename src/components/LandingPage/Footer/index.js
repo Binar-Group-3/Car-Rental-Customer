@@ -16,9 +16,7 @@ const Footer = () => {
           <div className="footer__navigation">
             <ul>
               {NavMenu.map((item) => (
-                <li>
-                  <a href="#">{item}</a>
-                </li>
+                <li key={item.id}>{item.menu}</li>
               ))}
             </ul>
           </div>
