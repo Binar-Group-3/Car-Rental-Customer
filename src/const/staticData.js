@@ -34,11 +34,11 @@ const userGroupIcon = <FontAwesomeIcon icon={faUserGroup}></FontAwesomeIcon>
 
 //# socialmedia logo
 const socialMediaLogo = [
-  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>,
-  <FontAwesomeIcon icon={faTwitch}></FontAwesomeIcon>,
+  { id: 1, logo: <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> },
+  { id: 2, logo: <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> },
+  { id: 3, logo: <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> },
+  { id: 4, logo: <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> },
+  { id: 5, logo: <FontAwesomeIcon icon={faTwitch}></FontAwesomeIcon> },
 ]
 
 export {

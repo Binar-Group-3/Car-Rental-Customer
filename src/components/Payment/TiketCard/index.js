@@ -17,9 +17,9 @@ const TiketCard = () => {
       <div className="tiket-invoice">
         <div className="tiket-invoice__header">
           <h4>Invoice</h4>
-          <Navigate to="/carimobil">
-            <img src={downloadButton} alt="download" />
-          </Navigate>
+          {/* <Navigate to="/carimobil"> */}
+          <img src={downloadButton} alt="download" />
+          {/* </Navigate> */}
         </div>
         <small>*no invoice</small>
         <div className="tiket-invoice-container"></div>
