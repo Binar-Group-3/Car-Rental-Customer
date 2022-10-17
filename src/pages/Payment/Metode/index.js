@@ -7,28 +7,20 @@ import Navigation from "../../../components/LandingPage/Navigation"
 import Footer from "../../../components/LandingPage/Footer"
 import OrderSummaryCard from "../../../components/Payment/OrderSummaryCard"
 import BankTransferCard from "../../../components/Payment/BankTransferCard"
-import { NavMenu } from "../../../components/LandingPage/Navigation/data"
-import { socialMediaLogo, userGroupIcon } from "../../../const/staticData"
 import DetailOrderCard from "../../../components/Payment/DetailOrderCard"
-
-const props = {
-  NavMenu,
-  socialMediaLogo,
-  userGroupIcon,
-}
 
 const PaymentMethod = () => {
   return (
     <>
       <section>
-        <Navigation {...props} />
+        <Navigation />
         <HeaderHero />
         <OrderSummaryCard />
         <div className="payment-method-container">
           <BankTransferCard />
-          <DetailOrderCard {...props} />
+          <DetailOrderCard />
         </div>
-        <Footer {...props} />
+        <Footer />
       </section>
     </>
   )
