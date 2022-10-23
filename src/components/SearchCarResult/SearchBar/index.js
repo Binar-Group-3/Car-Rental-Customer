@@ -2,7 +2,7 @@ import "./style.css"
 import { ButtonCari } from "../../../const/staticData"
 
 const SearchBar = (props) => {
-  const { handleChangeName, handleSearch, name } = props
+  const { handleCarName, handleSearch, handleCarCategory } = props
   return (
     <div className="search-bar__section1">
       <div className="search-bar__section2">
@@ -14,8 +14,7 @@ const SearchBar = (props) => {
                 <input
                   type="text"
                   placeholder="Ketik nama/tipe mobil"
-                  onChange={handleChangeName}
-                  value={name}
+                  onChange={handleCarName}
                 />
               </div>
               <div>
@@ -23,7 +22,7 @@ const SearchBar = (props) => {
                 <input
                   type="text"
                   placeholder="Masukkan Kapasitas Mobil"
-                  disabled
+                  onChange={handleCarCategory}
                 />
               </div>
               <div>
