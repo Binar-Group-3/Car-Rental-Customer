@@ -1,6 +1,7 @@
 import "./style.css";
 import { Link } from "react-router-dom";
-import bcr from "../../../assets/img_service.png";
+import bcr from "../../../assets/cover-login.png";
+import rectangle from "../../../assets/rectangle.png";
 
 const SignIn = (props) => {
   const { handleEmail, handlePassword, email, password, handleSubmit, logging } = props;
@@ -12,7 +13,7 @@ const SignIn = (props) => {
           <div className="signin__container">
             <div className="signin__logo">
               <Link to="/">
-                <h3>BCR LOGO</h3>
+                <img src={rectangle} alt="BCR" />
               </Link>
             </div>
             <h2>Welcome Back!</h2>
@@ -43,12 +44,7 @@ const SignIn = (props) => {
           </div>
         </div>
         <div className="signin__right">
-          <div className="signin__right__logo">
-            <h1>Binar Car Rental</h1>
-          </div>
-          <div className="signin__right__image">
-            <img src={bcr} alt="image" />
-          </div>
+          <img src={bcr} alt="BCR" />
         </div>
       </div>
     </>
