@@ -1,4 +1,3 @@
-const access_token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhZ3VzQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTcyODQyMH0.W4yaFbkavvnuCofSZ7HomW4l0h0qW_J3eOkMq-ErXn0"
+const access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhZ3VzQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTcyODQyMH0.W4yaFbkavvnuCofSZ7HomW4l0h0qW_J3eOkMq-ErXn0";
 
-export default access_token
+export default access_token;
