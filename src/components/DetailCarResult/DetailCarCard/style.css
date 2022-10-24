@@ -1,0 +1,30 @@
+.detail-car-card__container {
+  width: 407px;
+  min-height: 482px;
+  border-radius: var(--bora-lg);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.detail-car-card__container h1 {
+  font-size: 1rem;
+}
+
+.detail-car-card__rental-date {
+  margin-top: 1.5rem;
+}
+
+.detail-car-card__rental-date p {
+  margin-bottom: 0.5rem;
+}
+
+.detail-car-card__total-price {
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail__result__button-payment button {
+  width: 100%;
+}

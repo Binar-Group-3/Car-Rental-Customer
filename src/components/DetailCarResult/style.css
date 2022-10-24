@@ -1,0 +1,7 @@
+.detail__result__container {
+  width: 1042px;
+  min-height: 300px;
+  display: flex;
+  margin: 3rem auto 0;
+  gap: 24px;
+}

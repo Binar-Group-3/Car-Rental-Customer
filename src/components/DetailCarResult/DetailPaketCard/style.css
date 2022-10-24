@@ -1,0 +1,27 @@
+.detail-paket-card__container {
+  width: 605px;
+  border-radius: var(--bora-lg);
+  padding: 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.detail-paket-card__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-paket-card__section h4 {
+  margin: 1rem 0;
+}
+
+.detail-paket-card__section li {
+  list-style: circle;
+  font-weight: var(--fw-regular);
+  line-height: 1.6;
+}
+
+.detail-paket-card__refund h4 {
+  margin: 0;
+  padding: 0;
+}

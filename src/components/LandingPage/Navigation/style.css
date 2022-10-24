@@ -1,0 +1,40 @@
+.primary__header {
+  width: 100vw;
+  /* background: var(--clr-variant); */
+  height: 60px;
+}
+
+.primary__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 1440px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo-small-screen {
+  display: none;
+}
+
+/* _ Responsive Breakpoints */
+@media screen and (max-width: 900px) {
+  .container {
+    width: var(--container-md);
+  }
+
+  .logo-small-screen {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-sm);
+  }
+}

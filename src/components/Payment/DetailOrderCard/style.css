@@ -1,0 +1,47 @@
+.detail-order-card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 407px;
+  min-height: 482px;
+  border-radius: var(--bora-lg);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.detail-order-card__container button {
+  width: 100%;
+}
+
+.detail-order-card__total-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-order-card__total-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+  gap: 1rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.detail-order-card__total-detail li {
+  list-style: initial;
+  font-weight: 100;
+}
+.detail-order-card__total-detail div > small {
+  color: #5cb85f;
+  font-weight: 100;
+}
+
+.detail-order-card__total-cost div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-order-card__cost-items div {
+  display: flex;
+  justify-content: space-between;
+}
